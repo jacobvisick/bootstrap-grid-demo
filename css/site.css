@@ -43,6 +43,10 @@ body {
 .minHeight2 {
   min-height: 40vh;
 }
+
+.minHeight3 {
+  min-height: 80vh;
+}
 /* 
 main > .container-fluid {
   padding: 65px 15px 0;
