@@ -1,0 +1,49 @@
+html,
+body {
+  position: relative;
+  color: #212121;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+  margin-top: 4rem;
+}
+
+.footer {
+  flex-shrink: 0;
+}
+
+.heroText {
+  font-family: modesto-open-shadow, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(195, 255, 0);
+}
+
+.bgimage {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/img/GridBG.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.minHeight {
+  min-height: 85vh;
+}
+
+.minHeight2 {
+  min-height: 40vh;
+}
+/* 
+main > .container-fluid {
+  padding: 65px 15px 0;
+} */

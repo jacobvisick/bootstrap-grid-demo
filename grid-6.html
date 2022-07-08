@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap and The Grids: Home</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+
+    <link href="/css/site.css" rel="stylesheet" />
+    <link href="https://use.typekit.net/mhj5wdi.css" rel="stylesheet" />
+  </head>
+
+  <body class="d-flex flex-column h-100 bgimage">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Bootstrap Grids</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="grid-1.html">Grid One</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="grid-2.html">Grid Two</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="grid-3.html">Grid Three</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="grid-4.html">Grid Four</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="grid-5.html">Grid Five</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="grid-6.html"
+                >Grid Six</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--
+      container fluid
+      1 row - 1 col
+      2nd row - 3 col of 2, 4, 6
+
+      md+ = col 6 to be last, sm screen first
+      -->
+
+    <main class="content">
+      <!-- <section class="container-fluid text-light text-center">
+        <div class="row minHeight2 py-3">
+          <div class="col">
+            <article class="bg-secondary h-100">Col 1</article>
+          </div>
+        </div>
+        <div class="row minHeight2 g-3">
+          <div class="col-md-2">
+            <article class="bg-primary h-100">Col 1</article>
+          </div>
+          <div class="col-md-4">
+            <article class="bg-success h-100">Col 2</article>
+          </div>
+          <div class="col-md-6 order-first order-md-last">
+            <article class="bg-dark h-100">Col 3</article>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- <section class="container-fluid text-light">
+        <div class="row minHeight g-3">
+          <div class="col-md-12 order1 order-md-1">
+            <article class="h-100 bg-dark">Col 1</article>
+          </div>
+          <div class="col-md-2 order-3 order-md-2">
+            <article class="h-100 bg-warning text-black">Col 2</article>
+          </div>
+          <div class="col-md-4 order-4 order-md-3">
+            <article class="h-100 bg-danger">Col 3</article>
+          </div>
+          <div class="col-md-6 order-2 order-md-4">
+            <article class="h-100 bg-success">Col 4</article>
+          </div>
+        </div>
+        </section> -->
+
+        <section class="container-fluid" >
+          <div class="row row-cols-1 minHeight g-3" >
+            <div class="col-md-12">
+              <article class="bg-dark h-100"></article>
+            </div>
+            <div class="col col-md-2">
+              <article class="h-100 bg-secondary" ></article>
+            </div>
+            <div class="col col-md-4">
+              <article class="h-100 bg-danger"></article>
+            </div>
+            <div class="col col-md-6 order-md-last">
+              <article class="h-100 bg-success"></article>
+            </div>
+          </div>
+        </section>
+
+    </main>
+
+    <footer class="footer mt-auto py-3 bg-dark text-light">
+      <div class="container-fluid text-center">
+        <span class="text-muted">Bootstrap Grid Demo by Jacob Visick</span>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
